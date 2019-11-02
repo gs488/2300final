@@ -29,7 +29,7 @@ header("location: http://".SITE_URL.'/account.php');
 
 <body>
 
-  <h1><?php echo $pages[$current_page_id];?></h1>
+  <h5><?php echo $pages[$current_page_id];?></h5>
 
   <?php
   if(count($messages) > 0){print_messages();}
